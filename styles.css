@@ -12,6 +12,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 1.5px solid #303439;
+    flex-wrap: wrap; /* Permite que os elementos se reorganizem em linhas se necessário */
 }
 
 header nav a{
@@ -245,34 +246,34 @@ header nav a{
     margin: 0 auto;
 }
 
-footer{
-   background-color: #0837784a;
-   display: flex;
-   justify-content: space-between;
-   gap: 80px;
-   padding: 64px 80px;
-} 
+footer {
+    background-color: #0837784a;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+    flex-wrap: wrap; /* Permite reorganização dos elementos */
+}
 
-footer img,
-footer .titulo{
+footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
 }
 
-footer nav a{
+footer nav a {
     color: #263138;
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
 }
 
-footer p{
+footer p {
     margin-bottom: 16px;
     max-width: 350px;
 }
 
-footer p a{
+footer p a {
     color: #263138;
     text-decoration: none;
 }
@@ -288,19 +289,9 @@ footer p a{
     color:#ff9a6c;
 }
 
-/*.quemSomos, ------- Codigo para deixar o site resposivo
-.nossoProduto, 
-.suaSeguranca {
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    text-align: center;
-}
-*/
-
 @media (max-width: 320px) {
 
-        header {
+    header {
         flex-direction: column; /* Reorganiza os elementos verticalmente */
         justify-content: center;
         padding: 20px;
