@@ -300,79 +300,38 @@ footer p a{
 
 @media (max-width: 320px) {
 
-    header {
-        flex-direction: column;
-        padding: 10px;
+        header {
+        flex-direction: column; /* Reorganiza os elementos verticalmente */
+        justify-content: center;
+        padding: 20px;
     }
 
-
-    #home {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        margin: 0;
-    }
-
-    .tituloInicioMobiseg {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .tituloInicio {
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .titulos,
-    .titulossomos,
-    .titulosdemo {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    /* Ajuste para "Nosso Produto" e "Sua Segurança" */
-    .quemSomos,
-    .nossoProduto, 
-    .suaSeguranca {
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-        text-align: center; /* Centraliza os textos */
-    }
-
-    /* Outras regras de layout */
-    .img,
-    .img2 {
-        width: 100%;
-        height: auto;
-    }
-
-    .quemSomos,
-    #nossoObjetivo,
-    #demonstracao,
-    .boxCards {
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .container {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
-    .imgcard {
-        width: 80%;
-    }
-
-    .card {
-        width: 100%;
+    header nav a {
+        margin: 10px 0; /* Reduz o espaço entre os links */
+        font-size: 14px; /* Ajusta o tamanho da fonte */
     }
 
     footer {
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px 10px;
+        flex-direction: column; /* Organiza os itens em uma coluna */
+        padding: 32px 20px; /* Reduz o padding */
+        gap: 20px; /* Reduz o espaço entre os elementos */
+    }
+
+    footer p {
+        max-width: 100%; /* Permite que o texto ocupe toda a largura disponível */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    footer nav {
+        text-align: center; /* Centraliza os links de navegação */
+    }
+
+    footer img {
+        margin: 0 auto 16px auto; /* Centraliza a imagem */
+    }
+
+    footer nav a {
+        font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
     }
 }
 
