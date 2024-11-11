@@ -60,12 +60,12 @@ header nav a{
 }
 
 .buttonDemonstracao{
-    font-size: 15px;
+    font-size: 18px;
     background-color: #006AFF;
     border-radius: 25px;
     border: none;
     color: #ffff;
-    padding: 15px 15px;
+    padding: 20px 30px;
     cursor: pointer;
 }
 
