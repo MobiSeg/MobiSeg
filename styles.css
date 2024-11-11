@@ -251,7 +251,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    padding: 64px 80px;
+    padding: 34px 80px;
     flex-wrap: wrap; /* Permite reorganização dos elementos */
 }
 
