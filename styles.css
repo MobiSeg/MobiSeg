@@ -289,7 +289,7 @@ footer p a {
     color:#ff9a6c;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
 
     header {
         flex-direction: column; /* Reorganiza os elementos verticalmente */
