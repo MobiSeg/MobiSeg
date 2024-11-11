@@ -6,21 +6,21 @@
     text-decoration: none;
 }
 
-header{
-    background-color:#F5F7FA;
+header {
+    background-color: #F5F7FA;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 1.5px solid #303439;
-    flex-wrap: wrap; /* Permite que os elementos se reorganizem em linhas se necessário */
+    padding: 10px;
+    flex-wrap: wrap; /* Permite reorganização em telas menores */
 }
 
-header nav a{
+header nav a {
     color: #303439;
     font-weight: 600;
     text-decoration: none;
-    margin: 20px;
-}
+   
 
 .imgLogo{
     width: 100;
@@ -255,6 +255,7 @@ footer {
     flex-wrap: wrap; /* Permite reorganização dos elementos */
 }
 
+footer img,
 footer .titulo {
     display: block;
     font-weight: 600;
@@ -292,14 +293,14 @@ footer p a {
 @media (max-width: 390px) {
 
     header {
-        flex-direction: column; /* Reorganiza os elementos verticalmente */
+        flex-direction: column; /* Elementos ficam alinhados verticalmente */
         justify-content: center;
-        padding: 20px;
+        padding: 20px; /* Ajuste de espaço interno */
     }
 
     header nav a {
-        margin: 10px 0; /* Reduz o espaço entre os links */
-        font-size: 14px; /* Ajusta o tamanho da fonte */
+        margin: 10px 0; /* Menor espaçamento entre links */
+        font-size: 14px; /* Ajusta tamanho da fonte para telas pequenas */
     }
 
     footer {
