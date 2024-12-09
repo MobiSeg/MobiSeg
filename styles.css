@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-size: 15px;
 }
 
 header{
@@ -21,84 +22,13 @@ header nav a{
     margin: 20px;
 }
 
-.imgLogo{
-    width: 100;
-    height: 93;
-    display: block;
-}
-
-.buttonLogin{
-    background-color: #ffffff2c;
-    border-radius: 25px;
-    border: none;
-    color: #006AFF;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-left: 20px;
-    font-weight: 600;
-}
-
-.buttonCadastro{
-    background-color: #006AFF;
-    border-radius: 25px;
-    border: none;
-    color: #ffff;
-    padding: 10px 10px;
-    cursor: pointer;
-    margin-right: 20px;
-}
-
-#home{
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    /*topo, direita, baixo, esquerda*/
-    position: relative;
-    padding: 20px 60px 10px 60px;
-    margin: 0px 80px 0 80px;
-}
-
-.buttonDemonstracao{
-    font-size: 15px;
-    background-color: #006AFF;
-    border-radius: 25px;
-    border: none;
-    color: #ffff;
-    padding: 15px 15px;
-    cursor: pointer;
-}
-
-.buttonContato{
-    font-size: 15px;
-    background-color: #006AFF;
-    border-radius: 25px;
-    border: none;
-    color: #ffff;
-    padding: 15px 15px;
-    cursor: pointer;
-}
-
-.tituloInicioMobiseg{
-    text-align: justify;
-    font-size: 60px;
-    color: #006AFF;
-    margin: 10px;
-}
-
-.tituloInicio{
-    text-align: justify;
-    font-size: 40px;
-    color: #282828;
-    margin: 10px;
-}
-
 .titulos {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: #191919;
     letter-spacing: 4px;
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .titulossomos {
@@ -121,44 +51,86 @@ header nav a{
 
 .paragrafo{
     line-height: 150%;
-    margin-bottom: 32px;
     text-align: justify;
 }
 
-.img{
-    width: 290;
-    height: 290;
-    display: block;
-    margin: 0 auto;
+.imgLogo{
+    width: 100px;
 }
 
-.img2{
-    width: 290;
-    height: 290;
-    display: block;
-    margin: 0 auto;
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    /*topo, direita, baixo, esquerda*/
+    position: relative;
+    padding: 44px 60px 44px 60px;
+    margin: 0px 80px 0 80px;
 }
 
-.img3{
-    width: 380;
-    height: 380;
+.buttonDemonstracao{
+    font-size: 15px;
+    background-color: #006AFF;
+    border-radius: 25px;
+    border: none;
+    color: #ffff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.buttonContato{
+    font-size: 15px;
+    background-color: #006AFF;
+    border-radius: 25px;
+    border: none;
+    color: #ffff;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 10px 0px 0px 0px;
+}
+
+.tituloInicioMobiseg{
+    text-align: justify;
+    font-size: 50px;
+    color: #006AFF;
+    margin: 10px;
+}
+
+.tituloInicio{
+    text-align: justify;
+    font-size: 30px;
+    color: #282828;
+    margin: 10px;
+}
+
+.imghome{
+    width: 32em;
+}
+
+.divBottonsHome{
     display: block;
-    margin: 0 auto;
+    align-items: center;
 }
 
 .nossoProduto{
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 20px 120px 10px 120px;
+    padding: 40px 60px 40px 60px;
     margin: 0px 80px 0 80px;
+}
+
+.imgNossoProduto{
+    width: 32em;
 }
 
 #nossoObjetivo{
     align-items: center;
     gap: 64px;
-    padding: 20px 120px 10px 120px;
+    padding: 40px 60px 40px 60px;
     margin: 0px 80px 0 80px;
+
 }
 
 .boxCards{
@@ -168,8 +140,15 @@ header nav a{
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 60px 120px 10px 120px;
+    padding: 100px 120px 100px 120px;
     margin: 0px 80px 0 80px;
+}
+
+.imgObjetivo{
+    width: 32em;
+
+    display: block;
+    margin: 0 auto;
 }
 
 .card {
@@ -199,7 +178,7 @@ header nav a{
 
 .imgcard{
     width: 30%;
-    padding: 0;
+
     display: block;
     margin: 0 auto;
 }
@@ -214,29 +193,32 @@ header nav a{
     text-align: center;
     font-size: 15px;
     color: #191919;
-
 }
 
 .suaSeguranca{
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 20px 120px 10px 120px;
+    padding: 40px 60px 40px 60px;
     margin: 0px 80px 0 80px;
+}
+
+.imgSeguranca{
+    width: 32em;
 }
 
 .quemSomos{
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 20px 120px 10px 120px;
+    padding: 40px 60px 40px 60px;
     margin: 0px 80px 0 80px;
 }
 
 #demonstracao{
     align-items: center;
     gap: 64px;
-    padding: 20px 120px 120px 120px;
+    padding: 20px 120px 150px 120px;
     margin: 0px 80px 0 80px;
 }
 
@@ -246,11 +228,16 @@ header nav a{
     border-radius: 25px;
     border: none;
     color: #ffff;
-    padding: 20px 30px;
+    padding: 15px 30px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
 }
+
+.imgQuemSomos{
+    width: 32em;
+}
+
 
 footer {
     background-color: #abc0dd4a;
