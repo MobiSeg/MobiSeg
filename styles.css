@@ -126,8 +126,8 @@ header nav a{
 }
 
 .img{
-    width: 580;
-    height: 580;
+    width: 290;
+    height: 290;
     display: block;
     margin: 0 auto;
 }
@@ -135,6 +135,13 @@ header nav a{
 .img2{
     width: 290;
     height: 290;
+    display: block;
+    margin: 0 auto;
+}
+
+.img3{
+    width: 380;
+    height: 380;
     display: block;
     margin: 0 auto;
 }
