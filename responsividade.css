@@ -1,0 +1,104 @@
+@media screen and (max-width: 1020px) {
+
+    *{
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .paragrafo{
+        line-height: 150%;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .tituloInicioMobiseg{
+        text-align: justify;
+        font-size: 40px;
+        color: #006AFF;
+        margin: 10px;
+    }
+    
+    .tituloInicio{
+        text-align: justify;
+        font-size: 20px;
+        color: #282828;
+        margin: 10px;
+    }
+
+    .buttonDemonstracao{
+        font-size: 15px;
+        background-color: #006AFF;
+        border-radius: 25px;
+        border: none;
+        color: #ffff;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    
+    .buttonContato{
+        font-size: 15px;
+        background-color: #006AFF;
+        border-radius: 25px;
+        border: none;
+        color: #ffff;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    
+    .divBottonsHome{
+        display: block;
+        align-items: center;
+
+    }
+
+    .nossoProduto{
+        flex-direction: column-reverse;
+        margin-top: 1vh;
+    }
+    
+    .nossoObjetivo{
+        flex-direction: column;
+        margin-top: 1vh;
+    }
+    
+    .boxCards{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding: 100px 120px 100px 120px;
+        margin: 0px 80px 0 80px;
+    }
+
+    .suaSeguranca{
+        flex-direction: column-reverse;
+        margin-top: 1vh;
+    }
+
+    .quemSomos{
+        flex-direction: column;
+        margin-top: 1vh;
+    }
+
+    .titulosdemo {
+        text-align: center;
+        font-size: 30px;
+        color: #191919;
+        margin: 20px;
+        padding: 50px 10px 50px 10px;
+    }
+
+    #demonstracao{
+        align-items: center;
+        gap: 64px;
+        padding: 20px 10px 150px 10px;
+        margin: 0px 80px 0 80px;
+    }
+
+  }
